@@ -13,12 +13,12 @@ import org.lwjgl.opengl.*;
 import org.lwjgl.system.MemoryStack;
 
 public class Main {
-
+	
 	// The window handle
 	private long window;
 
 	public void run() {
-		System.out.println("Hello LWJGL " + Version.getVersion() + "!");
+		System.out.println("Hello LWJGL " + Version.getVersion() + "!" + " This is the correct one to be running!");
 
 		init();
 		loop();
